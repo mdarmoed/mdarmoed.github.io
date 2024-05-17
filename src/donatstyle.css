@@ -1,0 +1,219 @@
+/* Основные стили */
+.content-cont p {
+  color: gray;
+  text-align: start;
+  text-indent: 5px;
+  margin-bottom: 5px;
+}
+
+.coontainer {
+  margin: 10px auto;
+  max-width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('https://edisonprint.ru/assets/images/products/274/h0144.jpg');
+  margin-bottom: 3rem;
+}
+
+.donation-form {
+  width: 100%;
+  max-width: 700px;
+  border: 9px solid rgb(255, 224, 228);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.donation-form h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.krd-dnt,
+.inp-dnt,
+.txt-dnt {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-dnt {
+  width: 100%;
+  padding: 10px;
+  background-color: #cc848f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.btn-dnt:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.donate-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.donate-buttons label {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eba0ac;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  flex: 1;
+  margin: 5px;
+}
+
+.donate-buttons input[type="radio"] {
+  display: none;
+}
+
+.donate-buttons input[type="radio"]:checked + label {
+  background-color: black;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  18% { color: orange; }
+  36% { color: yellow; }
+  52% { color: green; }
+  70% { color: blue; }
+  88% { color: #00cfff; }
+  100% { color: #6600ff; }
+}
+
+.donate-buttons label:hover {
+  background-color: #fb8484;
+  color: white;
+}
+
+.big-text {
+  width: 80%;
+  height: auto;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-text p {
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 1200px) {
+  .coontainer {
+    padding: 20px;
+  }
+
+  .donation-form h2 {
+    font-size: 22px;
+  }
+
+  .krd-dnt,
+  .inp-dnt,
+  .txt-dnt {
+    padding: 8px;
+  }
+
+  .btn-dnt {
+    padding: 10px 20px;
+  }
+
+  .big-text p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .donation-form {
+    padding: 15px;
+  }
+
+  .donation-form h2 {
+    font-size: 20px;
+  }
+
+  .krd-dnt,
+  .inp-dnt,
+  .txt-dnt {
+    padding: 8px;
+  }
+
+  .btn-dnt {
+    padding: 10px 20px;
+  }
+
+  .big-text p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .donation-form {
+    padding: 10px;
+  }
+
+  .donation-form h2 {
+    font-size: 18px;
+  }
+
+  .krd-dnt,
+  .inp-dnt,
+  .txt-dnt {
+    padding: 7px;
+  }
+
+  .btn-dnt {
+    padding: 8px 16px;
+  }
+
+  .big-text p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .donation-form {
+    padding: 10px;
+  }
+
+  .donation-form h2 {
+    font-size: 16px;
+  }
+
+  .krd-dnt,
+  .inp-dnt,
+  .txt-dnt {
+    padding: 6px;
+  }
+
+  .btn-dnt {
+    padding: 6px 12px;
+  }
+
+  .big-text p {
+    font-size: 16px;
+  }
+}

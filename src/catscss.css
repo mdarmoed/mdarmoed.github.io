@@ -1,0 +1,56 @@
+
+
+
+.kotyata {
+  text-align: center;
+}
+
+.galleri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.kitten-card {
+  border: 1px solid #ccc;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left; /* Выровнять весь текст в карточке по левому краю */
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Выравнивание по центру по горизонтали */
+}
+
+.kitten-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.kitten-card h3 {
+  text-align: center; /* Выровнять заголовок по центру */
+}
+
+.kitten-card p {
+  margin: 8px 0;
+  text-align: left; /* Выровнять текст описания по левому краю */
+}
+
+.kitten-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center; /* Выравнивание кнопки по центру */
+}
+
+.kitten-card button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}

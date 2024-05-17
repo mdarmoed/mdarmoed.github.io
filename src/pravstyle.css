@@ -1,0 +1,144 @@
+.txt-pravila {
+  background: #efd7d7;
+  padding: 20px;
+  border-radius: 10px;
+  width: max-content;
+  margin: auto;
+}
+.txt-pravila h1{
+text-align: center;
+}
+
+.row-narrow {
+  display: flex;
+  justify-content: center;
+  background: #f9f9f9a3;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hill {
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  z-index: 0;
+  justify-content: center;
+}
+
+.row-narrow ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rama {
+  width: 200px;
+  margin: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.rama img{
+  width: 200px;
+
+}
+
+.mt40 {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*Facty*/
+.uzhos {
+    text-align: center;
+
+
+  }
+  
+  .containeer {
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  .imagecat {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .imagecat img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -10;
+  }
+  
+  .facts {
+    position: relative; 
+    transform: translate(0, -59%); 
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 20px; 
+
+    border-radius: 10px; 
+    text-align: left; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+    list-style-position: inside;
+
+    
+  }
+  
+  .facts ul {
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  .facts li {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .facts text {
+    font-size: 18px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .rama {
+      width : 100%;
+      margin: 15px;  
+    }
+    .imagecat{
+      width: 100%;
+      object-fit: contain;
+    }
+
+    .facts li{
+      width: 100%;
+      font-size: 16px;
+    }
+
+  }
+  
+  @media  screen and (min-width: 768px) {
+    .imagecat{
+      width: 100%;
+      object-fit: contain;
+    }
+
+    .facts{
+      width: 100%;
+      font-size: 16px;
+    }
+    .rama {
+      width : 100%;
+      margin: 15px;  
+    }
+  }

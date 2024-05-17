@@ -1,0 +1,40 @@
+.about-us-cats {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-us-cats h1 {
+
+  padding-left: 10%;
+  font-size: 50px;
+  text-align: start;
+  color: black;
+}
+
+.about-us-cats p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 1.5;
+
+
+  color: #000000;
+}
+
+.photo-gallery-cats {
+  display: grid;
+  gap: 10px;
+}
+
+.photo-gallery-cats img {
+  width: 100%;
+  height: auto;
+}
+
+@media  screen and(max-width: 768px) {
+  .photo-gallery-cats {
+      grid-template-columns: 1fr;
+  }
+}
