@@ -1,4 +1,6 @@
 import './App.css';
+import './contactstyle.css';
+
 import { Link } from "react-router-dom";
 
 function MainBlock() {
@@ -85,7 +87,7 @@ function MainBlock() {
 
 
         <div className="clearfix" />
-          <button className= "btn-help" id= 'btn-help'>
+          <button className='contact-form-btn' >
           <Link to={`/ourcats`}>ВЫБРАТЬ КОТИКА</Link>
           </button>
           </div> 
