@@ -18,7 +18,7 @@ function Donat() {
 
 function Donatp() {
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
 
     const fullname = event.target.fullname.value.trim();
     const email = event.target.email.value.trim();
