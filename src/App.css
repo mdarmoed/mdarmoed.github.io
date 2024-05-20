@@ -581,8 +581,8 @@ height: 350px;
     font-size: 14px;   
   }
   .btn-help{
-    font-size: 15px;
-    text-wrap: nowrap;
+    font: 1em sans-serif;
+
     width: auto;
   }
 
@@ -648,8 +648,8 @@ height: 350px;
     font-size: 14px;   
   }
   .btn-help{
-    font-size: 15px;
-    text-wrap: nowrap;
+    font: 1em sans-serif;
+
     width: auto;
   
   }
