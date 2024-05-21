@@ -30,7 +30,7 @@ function Donatp() {
 
 
     if (!fullname || !email || !phone || !donation || !cardNumber || !cardExpiry || !cardCVV) {
-      alert("Пожалуйста, заполните все обязательные поля.");
+      alert("Пожалуйста, заполните все обязательные поля!");
       return;
     }
 
