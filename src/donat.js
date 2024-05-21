@@ -47,7 +47,7 @@ function Donatp() {
           <div className='content-cont'>
             <h1>Помогите котяткам</h1>
             <div className='big-text'>
-              <p>Содержать около 300 животных — дело затратное и непростое, но с вашей помощью мы справимся! :)</p>
+              <p>Содержать около 300 животных — дело затратное и непростое, но с вашей помощью мы обязательно справимся! :)</p>
             </div>
             <div className='coontainer'>
             <div className='form-container'>
