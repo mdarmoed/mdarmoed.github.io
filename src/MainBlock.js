@@ -87,7 +87,7 @@ function MainBlock() {
 
 
         <div className="clearfix" />
-          <button className='contact-form-btn' >
+          <button className='btn-help' >
           <Link to={`/ourcats`}>ВЫБРАТЬ КОТИКА</Link>
           </button>
           </div> 
