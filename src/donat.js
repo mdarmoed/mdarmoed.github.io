@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import './donatstyle.css';
 import Header from './Header';
@@ -18,7 +17,7 @@ function Donat() {
 
 function Donatp() {
   const handleSubmit = (event) => {
-    event.preventDefault(); 
+    event.preventDefault(); // Prevent form submission
 
     const fullname = event.target.fullname.value.trim();
     const email = event.target.email.value.trim();
@@ -30,7 +29,7 @@ function Donatp() {
 
 
     if (!fullname || !email || !phone || !donation || !cardNumber || !cardExpiry || !cardCVV) {
-      alert("Пожалуйста, заполните все обязательные поля!");
+      alert("Пожалуйста, заполните все обязательные поля.");
       return;
     }
 
@@ -47,7 +46,7 @@ function Donatp() {
           <div className='content-cont'>
             <h1>Помогите котяткам</h1>
             <div className='big-text'>
-              <p>Содержать около 300 животных — дело затратное и непростое, но с вашей помощью мы обязательно справимся! :)</p>
+              <p>Содержать около 300 животных — дело затратное и непростое, но с вашей помощью мы справимся! :)</p>
             </div>
             <div className='coontainer'>
             <div className='form-container'>
