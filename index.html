@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <H1>Форма для записи на прием</H1>
+    <main>
+
+<form>
+    <div>
+    <label for="fio">Введите ваши ФИО</label> <br>
+    <input type="text" id="fio" placeholder="Введите ФИО" name="name" required><br>
+    </div>
+
+    <div>
+        <label for="fio">Введите ваш номер телефона</label> <br>
+        <input type="number" id="number" placeholder="Введите номер вашего телефона" name="number" required><br>
+        </div>
+
+    <div>
+    <label for="meeting-time">Выберите удобную для вас дату и время</label><br>
+    <input
+      type="datetime-local"
+      id="meeting-time"
+      name="meeting-time"
+      value="2024-06-29T09:30"
+      min="20-06-07T00:00"
+      max="2024-07-29T22:00"
+      style="width: fit-content; height: 2rem; font-family: Arial; border-radius: 0px;" required/>
+    </div>
+    <div class="error">
+        <p id="errorMessage" class="error"></p>
+        
+    </div>
+    <div>
+        <input onclick="validateForm()" type="submit" id="button" value="Отправить">
+    </div>
+
+</form>
+    </main>
+
+    <footer>
+        <div>
+            <p>© Все права защищены😋</p>
+        </div>
+    </footer>
+</body>
+</html>
