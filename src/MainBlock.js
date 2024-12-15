@@ -53,7 +53,7 @@ function MainBlock() {
             <h4>Наполеон</h4>
           </div>
           <div className="card">
-            <img src="https://wallbox.ru/resize/1024x1024/wallpapers/main/201303/55a739dd670b8bb.jpg" alt="Kitten 2" />
+            <img src="https://i.pinimg.com/originals/7e/1b/fd/7e1bfd1191112533fe9872ef47398823.jpg" alt="Kitten 2" />
             <h4>Гараций</h4>
           </div>
           <div className="card">
