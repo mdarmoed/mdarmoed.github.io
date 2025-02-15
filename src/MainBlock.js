@@ -23,7 +23,7 @@ function MainBlock() {
                 необходимые лекарственные препараты, оплачиваем операции, а также организуем и проводим благотворительные акции и 
                 просветительские мероприятия.
                 <br/>
-                Каждый из вас может помочь нашим подопечным и подарить им немного заботы, любви и теплоты.
+                Каждый из вас может помочь нашим подопечным и подарить им немного заботы, любви и тепла.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ function MainBlock() {
             <h4>Наполеон</h4>
           </div>
           <div className="card">
-            <img src="https://pic.rutubelist.ru/user/03/94/03944628c487ec796285a55a4a4d2023.jpg" alt="Kitten 2" />
+            <img src="https://avatars.mds.yandex.net/i?id=10aa2b3db60ecb714b58b7e6b45ebe87_l-5263630-images-thumbs&n=13" alt="Kitten 2" />
             <h4>Гараций</h4>
           </div>
           <div className="card">
