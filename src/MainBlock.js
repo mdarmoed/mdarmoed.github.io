@@ -53,7 +53,7 @@ function MainBlock() {
             <h4>Наполеон</h4>
           </div>
           <div className="card">
-            <img src="https://steamuserimages-a.akamaihd.net/ugc/2269319015243757481/C30C3DB5C97ACDFB2CA45BF49A79A348C4D3BD36/?imw=512&amp;imh=320&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true" alt="Kitten 2" />
+            <img src="https://pic.rutubelist.ru/user/03/94/03944628c487ec796285a55a4a4d2023.jpg" alt="Kitten 2" />
             <h4>Гараций</h4>
           </div>
           <div className="card">
