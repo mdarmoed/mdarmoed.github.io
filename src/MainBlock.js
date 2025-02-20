@@ -16,7 +16,7 @@ function MainBlock() {
                 Meow-palace 
               </h1>
               <p>
-                Это приют, где бездомные животные находят заботу, уход, безопасность и надежду на новый дом.
+                Это приют, где бездомные кошки находят заботу, уход, безопасность и надежду на новый дом.
                 <br/>
                 Наш приют осуществляет свою деятельность на благотворительные пожертвования людей из разных 
                 уголков нашей страны. Благодаря этой поддержке мы оплачиваем аренду помещения, закупаем корма и 
@@ -53,8 +53,8 @@ function MainBlock() {
             <h4>Наполеон</h4>
           </div>
           <div className="card">
-            <img src="https://avatars.mds.yandex.net/i?id=10aa2b3db60ecb714b58b7e6b45ebe87_l-5263630-images-thumbs&n=13" alt="Kitten 2" />
-            <h4>Гараций</h4>
+            <img src="https://i.pinimg.com/736x/85/15/3c/85153cf28226791b643167a511b8bd7f.jpg" alt="Kitten 2" />
+            <h4>Гарик</h4>
           </div>
           <div className="card">
             <img src="https://img.goodfon.ru/original/1024x1024/8/d3/kot-kotyara-usy-lapy-hvost-2399.jpg" alt="Kitten 3" />
